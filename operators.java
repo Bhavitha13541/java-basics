@@ -33,16 +33,16 @@ public class operators {
       %= , modulo and assign   */
 
 
-public class operators {
-    public static void main(String[] args){
-        int m = 3;
-        System.out.println("m += 4" + (m+=4));
-        System.out.println("m -= 4" + (m-=4));
-        System.out.println("m *= 8" + (m*=4));
-        System.out.println("m /= 4" + (m/=4));
-        System.out.println("m %= 5" + (m%=5));
-    }
-}
+// public class operators {
+//     public static void main(String[] args){
+//         int m = 3;
+//         System.out.println("m += 4" + (m+=4));
+//         System.out.println("m -= 4" + (m-=4));
+//         System.out.println("m *= 8" + (m*=4));
+//         System.out.println("m /= 4" + (m/=4));
+//         System.out.println("m %= 5" + (m%=5));
+//     }
+// }
 // output:
 // m += 47
 // m -= 43
@@ -59,19 +59,19 @@ public class operators {
    > : greater than.
    >= : greater than equal to. */
 
-public class operators {
-    public static void main(String[] args){
-        int a = 45;
-        float b = 34.45f;
-        double c = 23d;
-        System.out.println("a > b:" + (a > b));
-        System.out.println("a >= b:" + (a >= b));
-        System.out.println("a < c:" + (a < c));
-        System.out.println("a <= b:" + (a <= b));
-        System.out.println("a != c:" + (a !=c));
+// public class operators {
+//     public static void main(String[] args){
+//         int a = 45;
+//         float b = 34.45f;
+//         double c = 23d;
+//         System.out.println("a > b:" + (a > b));
+//         System.out.println("a >= b:" + (a >= b));
+//         System.out.println("a < c:" + (a < c));
+//         System.out.println("a <= b:" + (a <= b));
+//         System.out.println("a != c:" + (a !=c));
 
-    }
-}
+//     }
+// }
 
 /*output:
 a > b:true
@@ -88,16 +88,16 @@ a != c:true  */
   ! - logical NOT: 
  */
 
- public class operators {
-    public static void main(String[] args){
-        boolean a = true;
-        boolean b = false;
-        System.out.println("a && b:" + (a && b));
-        System.out.println("a || b:" + (a || b));
-        System.out.println("!b:" + (!b));
+//  public class operators {
+//     public static void main(String[] args){
+//         boolean a = true;
+//         boolean b = false;
+//         System.out.println("a && b:" + (a && b));
+//         System.out.println("a || b:" + (a || b));
+//         System.out.println("!b:" + (!b));
 
-    }
- }
+//     }
+//  }
 
 //  output:
 // a && b:false
@@ -118,16 +118,16 @@ a != c:true  */
  */
 
 
- public class operators {
-    public static void main(String[] args){
-        int a = 23;
-        int b = 34;
-        System.out.println("postincrement:" + (a++));
-        System.out.println("preincrement:" + (++a));
-        System.out.println("postdecrement:" + (b--));
-        System.out.println("predecrement:" + (--b));
-    }
- }
+//  public class operators {
+//     public static void main(String[] args){
+//         int a = 23;
+//         int b = 34;
+//         System.out.println("postincrement:" + (a++));
+//         System.out.println("preincrement:" + (++a));
+//         System.out.println("postdecrement:" + (b--));
+//         System.out.println("predecrement:" + (--b));
+//     }
+//  }
 
 // output:
 // postincrement:23
@@ -143,15 +143,15 @@ It has three operators and the name ternary.The general format is
 if the condition evaluates true,then executes the statements after the '?' else executes
 the statemnts after the ':'.
  */
-public class operators {
-    public static void main(String[] args){
-        int num1 = 45, num2 = 32 , max;
-        System.out.println("num1 is:" + num1);
-        System.out.println("num2 is:" + num2);
-        max = (num1 > num2) ? num1 : num2;
-        System.out.println("max number is :" + max);
-    }
-}
+// public class operators {
+//     public static void main(String[] args){
+//         int num1 = 45, num2 = 32 , max;
+//         System.out.println("num1 is:" + num1);
+//         System.out.println("num2 is:" + num2);
+//         max = (num1 > num2) ? num1 : num2;
+//         System.out.println("max number is :" + max);
+//     }
+// }
 
 // output:
 // num1 is:45
