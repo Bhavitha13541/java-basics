@@ -28,3 +28,9 @@
 // output:
 // 4.67
 // 4
+
+public class Type_conversion {
+    public static void main(String[] args){
+        System.out.println("hello");
+    }
+}
