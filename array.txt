@@ -1,0 +1,44 @@
+Array Defination
+    Array are fundamental structures in java that allow us to store multiple values of the same type
+    in a single variable.
+    1.In java, all arrays are dynamically allocated.
+    2.Arrays are stored in contiguous memory .
+    3.Since arrays are objects in java, we can find thir length using the objects property length
+      This is different from C/C++
+    4.A Java array variable can also be declared like other variables with [] after the data type.
+    5.It is a simplest data structure where each data element can be accessed directly by only using
+      its index number.
+    6.The variables in the array are ordered, and each has an index beginning with 0.
+Array Declaration.
+    Syntax:
+        Method 1: datatype var-name[];
+        method 2: datatype [] var-name;
+    type: The data type of the array elements (e.g-int,string).
+    arrayname : The name of the array.
+Creating Array
+    int a[] = { 12,3,4,56,7};
+Accessing Array Elements.
+    int a[] = {12,3,4,56,7};
+    System.out.println(a[3],a[2]);
+Finding length of the array
+    int a[] = {12,3,4,56,7};
+    int len a.length;
+    System.out.println(len);
+
+Types of Arrays in Java.
+1.Single Dimensional Array
+     A single Dimensional: These are common types of arrays,where elements are stored in a linear order.
+     int a[] = {1,2,3,4,5}
+2.Two Dimensional Array
+    Arrays with more than one Dimension, such as two-Dimension arrays(matrices)
+    A 2D array (matrix)
+    int[] multiDimension = {
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}
+    };
+3.Multi Dimensional Array
+    int [][][]intarray = new int[10][24][45]
+4.Loops 
+1.for-each Loops
+Syntax = for (type variable : arrayname)
